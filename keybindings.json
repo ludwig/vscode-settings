@@ -1,0 +1,330 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "cmd+s",
+    "command": "workbench.action.files.saveWithoutFormatting"
+  },
+  {
+    "key": "cmd+k s",
+    "command": "-workbench.action.files.saveWithoutFormatting"
+  },
+  {
+    "key": "cmd+k s",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "key": "cmd+s",
+    "command": "-workbench.action.files.save"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "scrollLineUp",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "scrollLineDown",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+a k",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "ctrl+a j",
+    "command": "workbench.action.navigateDown"
+  },
+  {
+    "key": "ctrl+a h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl+a l",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "ctrl+a ctrl+k",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "ctrl+a ctrl+j",
+    "command": "workbench.action.navigateDown"
+  },
+  {
+    "key": "ctrl+a ctrl+h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl+a ctrl+l",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "ctrl+a h",
+    "command": "workbench.action.navigateLeft",
+    "when": "panelFocus"
+  },
+  {
+    "key": "ctrl+a ctrl+h",
+    "command": "workbench.action.navigateLeft",
+    "when": "panelFocus"
+  },
+  {
+    "key": "ctrl+a ctrl+l",
+    "command": "workbench.action.navigateRight",
+    "when": "panelFocus"
+  },
+  {
+    "key": "ctrl+a k",
+    "command": "workbench.files.action.focusOpenEditorsView",
+    "when": "sideBarFocus && explorerViewletVisible"
+  },
+  {
+    "key": "ctrl+a j",
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "sideBarFocus && explorerViewletVisible && !filesExplorerFocus"
+  },
+  {
+    "key": "ctrl+a ctrl+k",
+    "command": "workbench.files.action.focusOpenEditorsView",
+    "when": "sideBarFocus && explorerViewletVisible"
+  },
+  {
+    "key": "ctrl+a ctrl+j",
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "sideBarFocus && explorerViewletVisible && !filesExplorerFocus"
+  },
+  {
+    "key": "ctrl+a 0",
+    "command": "workbench.action.joinAllGroups"
+  },
+  {
+    "key": "ctrl+a 1",
+    "command": "workbench.action.editorLayoutSingle"
+  },
+  {
+    "key": "ctrl+a shift+\\",
+    "command": "workbench.action.splitEditor",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+a -",
+    "command": "workbench.action.splitEditorOrthogonal",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+a shift+\\",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+a -",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+shift+right",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+shift+down",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+shift+left",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+shift+up",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+a ctrl+c",
+    "command": "workbench.action.terminal.newInActiveWorkspace",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+a ctrl+c",
+    "command": "workbench.action.terminal.newInActiveWorkspace",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+a ctrl+w",
+    "command": "workbench.action.quickOpenTerm",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+a right",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus && panelPosition == 'bottom'"
+  },
+  {
+    "key": "ctrl+a left",
+    "command": "workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus && panelPosition == 'bottom'"
+  },
+  {
+    "key": "ctrl+a down",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus && panelPosition != 'bottom'"
+  },
+  {
+    "key": "ctrl+a up",
+    "command": "workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus && panelPosition != 'bottom'"
+  },
+  {
+    "key": "ctrl+a ctrl+a",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+a ctrl+a",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+a ctrl+q",
+    "command": "notifications.toggleList"
+  },
+  {
+    "key": "cmd+m cmd+a",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "enter",
+    "command": "-renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "ctrl+a shift+a",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "ctrl+a shift+k",
+    "command": "workbench.action.terminal.moveToEditor",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+a shift+j",
+    "command": "workbench.action.terminal.moveToTerminalPanel",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+a shift+k",
+    "command": "workbench.action.moveEditorToAboveGroup",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+a shift+j",
+    "command": "workbench.action.moveEditorToBelowGroup",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+a shift+h",
+    "command": "workbench.action.moveEditorToLeftGroup",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+a shift+l",
+    "command": "workbench.action.moveEditorToRightGroup",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+ctrl+w up",
+    "command": "workbench.action.moveActiveEditorGroupUp",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+ctrl+w down",
+    "command": "workbench.action.moveActiveEditorGroupDown",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+ctrl+w left",
+    "command": "workbench.action.moveActiveEditorGroupLeft",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+ctrl+w right",
+    "command": "workbench.action.moveActiveEditorGroupRight",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+a ctrl+m",
+    "command": "editor.action.toggleMinimap",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+a ctrl+t",
+    "command": "workbench.action.terminal.sendSequence",
+    "when": "editorFocus",
+    "args": {
+      "text": "cd '${fileDirname}'\u000D"
+    }
+  },
+  {
+    "key": "ctrl+[",
+    "command": "workbench.action.moveEditorLeftInGroup",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+]",
+    "command": "workbench.action.moveEditorRightInGroup",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+cmd+[",
+    "command": "workbench.action.moveEditorLeftInGroup",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+cmd+]",
+    "command": "workbench.action.moveEditorRightInGroup",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+shift+g",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "alt+g",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "shift+cmd+w",
+    "command": "workbench.action.reopenClosedEditor"
+  },
+  {
+    "key": "shift+cmd+t",
+    "command": "-workbench.action.reopenClosedEditor"
+  },
+  {
+    "key": "shift+cmd+v",
+    "command": "toggleVim"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+    "when": "!activeEditorGroupEmpty"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "-workbench.action.quickOpenNavigateNextInEditorPicker",
+    "when": "inEditorsPicker && inQuickOpen"
+  }
+]
