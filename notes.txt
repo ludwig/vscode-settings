@@ -1,0 +1,6 @@
+
+How to enable key-repeating for vscode+vim on macOS:
+* https://vimforvscode.com/enable-key-repeat-vim
+
+The command to run is:
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
