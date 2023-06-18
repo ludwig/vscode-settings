@@ -1,0 +1,9 @@
+{
+  "vim.useSystemClipboard": true,
+  "editor.rulers": [78, 80],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
+  },
+  "editor.minimap.enabled": false
+}
