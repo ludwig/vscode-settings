@@ -294,6 +294,14 @@
     "when": "editorFocus"
   },
   {
+    "key": "cmd+shift+h",
+    "command": "type",
+    "args": {
+      "text": "\n--------------------------------------------------------------------------------\n"
+    },
+    "when": "editorTextFocus"
+  },
+  {
     "key": "alt+shift+g",
     "command": "workbench.action.showCommands"
   },
