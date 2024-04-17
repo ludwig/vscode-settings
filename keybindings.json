@@ -245,6 +245,10 @@
     "when": "editorFocus"
   },
   {
+    "key": "ctrl+w",
+    "command": "-workbench.action.switchWindow"
+  },
+  {
     "key": "cmd+ctrl+w up",
     "command": "workbench.action.moveActiveEditorGroupUp",
     "when": "editorFocus"
@@ -296,6 +300,16 @@
     "key": "ctrl+shift+cmd+]",
     "command": "workbench.action.moveEditorRightInGroup",
     "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "workbench.action.previousPanelView",
+    "when": "panelFocus"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "workbench.action.nextPanelView",
+    "when": "panelFocus"
   },
   {
     "key": "cmd+shift+h",
