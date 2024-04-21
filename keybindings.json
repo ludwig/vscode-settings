@@ -192,12 +192,10 @@
   },
   {
     "key": "cmd+m cmd+a",
-    "command": "explorer.newFile",
-    "when": "explorerViewletFocus"
+    "command": "explorer.newFile"
   },{
     "key": "cmd+m cmd+d",
-    "command": "explorer.newFolder",
-    "when": "explorerViewletFocus"
+    "command": "explorer.newFolder"
   },
   {
     "key": "cmd+enter",
