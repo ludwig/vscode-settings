@@ -360,5 +360,9 @@
     "key": "shift+cmd+v",
     "command": "-markdown.showPreview",
     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "cmd+0",
+    "command": "workbench.action.zoomReset"
   }
 ]
