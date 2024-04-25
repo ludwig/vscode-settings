@@ -1,0 +1,67 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  "vim.useSystemClipboard": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "editor.cursorSurroundingLines": 2,
+  "editor.guides.indentation": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [78, 80],
+  "window.zoomLevel": -1,
+  "python.defaultInterpreterPath": "/Users/luis/miniforge3/envs/lam/bin/python",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnType": true
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "cmake.configureOnOpen": false,
+  "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.defaultProfile.osx": "bash",
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "fish": {
+      "path": "fish",
+      "args": ["-l"]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "genieai.openai.model": "gpt-4",
+  "genieai.openai.organization": "org-n6CX8eg5CylSgSR3PRy8f2qA",
+  "genieai.enableConversationHistory": true,
+  "git.openRepositoryInParentFolders": "never",
+  "mojo.modularHomePath": "/Users/luis/.modular",
+  "redhat.telemetry.enabled": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "yaml.customTags": ["!Ref", "!GetAtt"],
+  "[terraform]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "workbench.iconTheme": "vs-seti"
+}
