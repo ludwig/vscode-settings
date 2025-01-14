@@ -364,5 +364,15 @@
   {
     "key": "cmd+0",
     "command": "workbench.action.zoomReset"
-  }
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "github.copilot.toggleCopilot",
+    "when": "editorTextFocus"
+  },
 ]
