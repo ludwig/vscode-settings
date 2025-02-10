@@ -1,11 +1,107 @@
 {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
   "vim.useSystemClipboard": true,
-  "editor.rulers": [78, 80],
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.formatOnType": true
+  "editor.cursorSurroundingLines": 2,
+  "editor.guides.indentation": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [78, 80],
+  "window.zoomLevel": -1,
+  "workbench.colorTheme": "Visual Studio Dark - C++",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.defaultProfile.osx": "bash",
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "fish": {
+      "path": "fish",
+      "args": ["-l"]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
   },
-  "editor.minimap.enabled": false
+  "git.openRepositoryInParentFolders": "never",
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "yaml.customTags": ["!Ref", "!GetAtt"],
+  "[terraform]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "workbench.iconTheme": "vs-seti",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "makefile.configureOnOpen": true,
+  "jupyter.disableJupyterAutoStart": true,
+  "testExplorer.useNativeTesting": true,
+  "lldb.suppressUpdateNotifications": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "extensions.trustedPublishers": [
+    "alefragnani",
+    "amazonwebservices",
+    "charliermarsh",
+    "continue",
+    "donjayamanne",
+    "dsznajder",
+    "eamodio",
+    "ecmel",
+    "entuent",
+    "esbenp",
+    "formulahendry",
+    "franneck94",
+    "fredwangwang",
+    "genieai",
+    "golang",
+    "gruntfuggly",
+    "hashicorp",
+    "hbenl",
+    "hediet",
+    "james-yu",
+    "jeff-hykin",
+    "jetmartin",
+    "jojoee",
+    "l13rary",
+    "littlefoxteam",
+    "llvm-vs-code-extensions",
+    "mark-tucker",
+    "mhutchie",
+    "mindaro-dev",
+    "modular-mojotools",
+    "owenfarrell",
+    "redhat",
+    "ryuta46",
+    "someshkumar",
+    "tamasfe",
+    "tomoki1207",
+    "twxs",
+    "vadimcn",
+    "vscodevim",
+    "xadillax",
+    "xaver"
+  ]
 }
