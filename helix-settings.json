@@ -9,6 +9,7 @@
   "editor.inlineSuggest.enabled": true,
   "editor.minimap.enabled": false,
   "editor.rulers": [78, 80],
+  "editor.mouseWheelScrollSensitivity": 0.5,
   "window.zoomLevel": -1,
   "python.defaultInterpreterPath": "/Users/luis/miniforge3/envs/lam/bin/python",
   "[python]": {
