@@ -1,5 +1,4 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": false,
   "vim.useSystemClipboard": true,
   "files.insertFinalNewline": true,
@@ -11,25 +10,18 @@
   "editor.rulers": [78, 80],
   "editor.mouseWheelScrollSensitivity": 0.5,
   "window.zoomLevel": -1,
-  "python.defaultInterpreterPath": "/Users/luis/miniforge3/envs/lam/bin/python",
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnType": true
-  },
-  "[cpp]": {
-    "editor.defaultFormatter": "xaver.clang-format"
-  },
   "cmake.configureOnOpen": false,
   "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
   "terminal.integrated.inheritEnv": false,
   "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.defaultProfile.osx": "bash",
   "terminal.integrated.profiles.osx": {
     "bash": {
       "path": "bash",
-      "args": ["-l"],
+      "args": ["-li"],
       "icon": "terminal-bash"
     },
     "zsh": {
@@ -64,7 +56,7 @@
     "editor.insertSpaces": true,
     "editor.defaultFormatter": "hashicorp.terraform"
   },
-  "workbench.iconTheme": "vs-seti"
+  "workbench.iconTheme": "vs-seti",
   "python.analysis.diagnosticSeverityOverrides": {
     "reportMissingImports": "none",
     "reportMissingModuleSource": "none",
@@ -76,9 +68,16 @@
   "python-envs.defaultEnvManager": "ms-python.python:conda",
   "python-envs.defaultPackageManager": "ms-python.python:conda",
   "python-envs.pythonProjects": [],
-  "python.defaultInterpreterPath": "${env:HOME}/miniforge3",
+  "python.defaultInterpreterPath": "${env:HOME}/miniforge3/envs/lam/bin/python",
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+    "editor.wordBasedSuggestions": "off",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.stickyScroll.defaultModel": "foldingProviderModel",
+    "editor.suggest.insertMode": "replace",
   },
   "github.copilot.enable": {
     "*": true,
