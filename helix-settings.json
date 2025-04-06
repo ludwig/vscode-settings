@@ -64,4 +64,19 @@
     "editor.defaultFormatter": "hashicorp.terraform"
   },
   "workbench.iconTheme": "vs-seti"
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none",
+    "reportMissingModuleSource": "none",
+  },
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none",
+    "reportMissingModuleSource": "none",
+  },
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda",
+  "python-envs.pythonProjects": [],
+  "python.defaultInterpreterPath": "${env:HOME}/miniforge3",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
 }
