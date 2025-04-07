@@ -41,21 +41,10 @@
       "icon": "terminal-powershell"
     }
   },
-  "genieai.openai.model": "gpt-4",
-  "genieai.openai.organization": "org-n6CX8eg5CylSgSR3PRy8f2qA",
-  "genieai.enableConversationHistory": true,
   "git.openRepositoryInParentFolders": "never",
   "mojo.modularHomePath": "/Users/luis/.modular",
   "redhat.telemetry.enabled": true,
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "yaml.customTags": ["!Ref", "!GetAtt"],
-  "[terraform]": {
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,
-    "editor.defaultFormatter": "hashicorp.terraform"
-  },
   "workbench.iconTheme": "vs-seti",
   "python.analysis.diagnosticSeverityOverrides": {
     "reportMissingImports": "none",
@@ -69,9 +58,6 @@
   "python-envs.defaultPackageManager": "ms-python.python:conda",
   "python-envs.pythonProjects": [],
   "python.defaultInterpreterPath": "${env:HOME}/miniforge3/envs/lam/bin/python",
-  "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff"
-  },
   "[cpp]": {
     "editor.defaultFormatter": "xaver.clang-format"
     "editor.wordBasedSuggestions": "off",
@@ -79,6 +65,46 @@
     "editor.stickyScroll.defaultModel": "foldingProviderModel",
     "editor.suggest.insertMode": "replace",
   },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[terraform]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.quickSuggestions": {
+      "comments": false,
+      "strings": false,
+      "other": true,
+    },
+  },
+  "genieai.openai.model": "gpt-4",
+  "genieai.openai.organization": "org-n6CX8eg5CylSgSR3PRy8f2qA",
+  "genieai.enableConversationHistory": true,
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
