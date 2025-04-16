@@ -46,10 +46,7 @@
   "redhat.telemetry.enabled": true,
   "yaml.customTags": ["!Ref", "!GetAtt"],
   "workbench.iconTheme": "vs-seti",
-  "python.analysis.diagnosticSeverityOverrides": {
-    "reportMissingImports": "none",
-    "reportMissingModuleSource": "none",
-  },
+  "python.analysis.typeCheckingMode": "standard",
   "python.analysis.diagnosticSeverityOverrides": {
     "reportMissingImports": "none",
     "reportMissingModuleSource": "none",
