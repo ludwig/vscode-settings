@@ -400,4 +400,15 @@
       ],
     },
   },
+  {
+    "key": "cmd+k cmd+o",
+    "command": "extension.multiCommand.execute",
+    "args": {
+      "sequence": [
+        "workbench.action.files.saveAll",
+        "workbench.action.closeOtherEditors",
+        "workbench.action.closeEditorsInOtherGroups",
+      ],
+    },
+  },
 ]
