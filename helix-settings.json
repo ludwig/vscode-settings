@@ -55,6 +55,7 @@
   "python-envs.defaultPackageManager": "ms-python.python:conda",
   "python-envs.pythonProjects": [],
   "python.defaultInterpreterPath": "${env:HOME}/miniforge3/envs/lam/bin/python",
+  "python.terminal.activateEnvironment": false,
   "[cpp]": {
     "editor.defaultFormatter": "xaver.clang-format"
     "editor.wordBasedSuggestions": "off",
