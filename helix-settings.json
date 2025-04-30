@@ -62,6 +62,7 @@
   ],
   "python.defaultInterpreterPath": "${env:HOME}/miniforge3/envs/lam/bin/python",
   "python.terminal.activateEnvironment": false,
+  "python.terminal.activateEnvInCurrentTerminal": false,
   "[cpp]": {
     "editor.defaultFormatter": "xaver.clang-format"
     "editor.wordBasedSuggestions": "off",
