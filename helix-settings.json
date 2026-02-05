@@ -130,4 +130,6 @@
   "chat.viewSessions.orientation": "stacked",
   "chat.tools.terminal.outputLocation": "chat",
   "http.systemCertificatesNode": true,
+  "zenMode.fullScreen": false,
+  "zenMode.centerLayout": false,
 }

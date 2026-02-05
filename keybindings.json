@@ -411,4 +411,8 @@
       ],
     },
   },
+  {
+    "key": "shift+escape",
+    "command": "workbench.action.toggleZenMode"
+  },
 ]
