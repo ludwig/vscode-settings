@@ -128,4 +128,6 @@
     { "text": "Use bullet points (*) for clarity." },
   ],
   "chat.viewSessions.orientation": "stacked",
+  "chat.tools.terminal.outputLocation": "chat",
+  "http.systemCertificatesNode": true,
 }
