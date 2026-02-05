@@ -416,7 +416,12 @@
     "command": "workbench.action.toggleZenMode"
   },
   {
+    "key": "shift+escape",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "when": "terminalFocus"
+  },
+  {
     "key": "cmd+r",
     "command": "workbench.action.toggleAuxiliaryBar"
-  }
+  },
 ]
