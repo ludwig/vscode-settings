@@ -415,4 +415,8 @@
     "key": "shift+escape",
     "command": "workbench.action.toggleZenMode"
   },
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.toggleAuxiliaryBar"
+  }
 ]
