@@ -51,6 +51,12 @@
     "reportMissingImports": "none",
     "reportMissingModuleSource": "none",
   },
+  "python.analysis.exclude": [
+    "**/.*",
+    "**/__pycache__",
+    "**/node_modules",
+    "**/dist",
+  ],
   "python-envs.defaultEnvManager": "ms-python.python:conda",
   "python-envs.defaultPackageManager": "ms-python.python:conda",
   "python-envs.pythonProjects": [
